@@ -7,7 +7,6 @@
 ```
 my-prompts/
 ├── README.md              # 本文件：说明 + 索引
-├── prompts.md             # 早期占位文件，内容未改动
 └── prompts/
     ├── _template.md       # 新建提示词的模板
     ├── writing/           # 写作：润色、改写、文案
@@ -63,7 +62,3 @@ cp prompts/_template.md prompts/writing/my-new-prompt.md
 - 大改（换角色、换输出格式）时升 `version`，小改只更新 `updated`
 - 废弃的提示词先移入 `prompts/_archive/`，观察一段时间后再删
 - 提交信息用「新增 / 修改 / 删除：主题」的形式
-
-## 待办
-
-- `prompts.md` 里的「修改测算」含义待确认，可整理成一条正式提示词或删除
